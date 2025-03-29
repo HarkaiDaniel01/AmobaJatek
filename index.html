@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amőba játék</title>
+    <link rel="stylesheet" href="sajat.css">
+</head>
+<body> 
+
+    <div id="beallitas">
+        <p>A pálya mérete: NxN.</p>
+        <p>Add meg "N" értékét: </p>
+        <input id="n" type="number" value="10" min="3" max="20">
+        <button onclick="palyaGeneral()">Játék indítása</button>
+    </div>
+    <div id="jatek">
+        <h1>Amőba</h1>
+        <div id="tabla"></div>
+        <p id="jatekos"></p>
+    </div>
+    
+    <script src="alap.js"></script>
+    
+</body>
+</html>
