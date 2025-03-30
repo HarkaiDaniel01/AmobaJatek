@@ -1,13 +1,13 @@
 #jatek {
     text-align: center;
     border-radius: 20px;
-    background-image: url("hatter8.png");
+    background-image: url("hatter2.png");
     background-size: cover;
     border-radius: 10px;
 }
 
 body {
-    background-image: url("hatter7.jpg");
+    background-image: url("hatter.jpg");
     background-size: cover;
 }
 
